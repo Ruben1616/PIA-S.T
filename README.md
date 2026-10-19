@@ -3,3 +3,4 @@ Integrantes:
 Rubén Alejandro Alvarez Arcivar
 Kimberly Brisseyda Mata Ojeda
 Thomas Israel Guerrero Castillo 
+Oswaldo Nabat Aranda Correa 
