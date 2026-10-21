@@ -1,1 +1,38 @@
+#librerías que usaremos
+import time
+import screen_brightness_control as sbc
 
+#conversion de decimal a binario
+def texto_a_bit(texto):
+    preambulo = [1, 0 ,1, 0, 1, 0, 1, 0]
+    bits_mensaje = []
+    for c in texto:
+        binario = format(ord(c), '08b')
+        for b in binario:
+            bits_mensaje.append(int(b))
+            return preambulo + bits_mensaje
+#EXPLICACION: Con este script asignamos el preambulo y creamos la lista bits_mensaje donde meteremos cada caracter
+del mensaje convertido a binario, con el for c in texto recorremos todo el texto ingresado y con format(ord(c), '08b')
+convertimos ese caracter en su forma binaria buscandolo en el estandar ASCII y con el for final metemos los 0 y 1
+transformados a enteros a nuestra lista con el mensaje en binario
+
+
+def transmitir_trama():
+    mensaje = "facultad de ciencias fisico mate"
+    trama = texto_a_bit(mensaje)   
+    print(f"mensaje a convertir: {trama})
+    print("hay 4 bits de preamulo")
+    time.sleep(2)
+    for bit in trama:
+        if bit == 1:
+            sbc.set_brightness(100)
+        else:
+            sbc.set_brightness(0)
+        time.sleep(0.5)
+    sbc.set_brightness(50)
+    print("fin de la transmision")
+if __name__ == "__main__":
+    transmitir_trama()
+#EXPLICACION: Declaramos el mensaje que queremos transformar, luego aplicamos la funcion que transforma el mensaje a bits
+después time.sleep(2) genera una pausa antes de empezar a mover el brillo, con los ifs, validamos si el bit es 1 o 0 para
+asignar el brillo de la pantalla, hay 0.5 segundos de diferencia entre cambio de brillo
