@@ -1,0 +1,21 @@
+Reporte de Captación de Luz
+
+Recursos del experimentó:
+
+Labtop de Gama empresarial (Utilizada para manipular el brillo de la pantalla por medio de un script de python). Descripción de la pantalla : Tiene un tamaño de 14", 35.6 cm de diagonal, brillo nominal de 400 nits es la iluminación que puede alcanzar la pantalla punto máximo de luminancia.
+Celular de gama media (Utilizada para capturar la sensibilidad del brillo de la pantalla de la laptop mediante el uso de software phyphox)
+Herramienta de medición de distancia: Cinta de mediar 
+
+Cada uno de los recursos y herramientas no fueron compradas, se utilizo lo que ya tenemos a nuestra disposición.
+
+¿Cuál es la distancia máxima para recibir señal del la pantalla de la lap capturada por la cámara de un celular?
+
+Después de varias prueba en un ambiente dentro de una habitación con presencia de brillo ambiente y con iluminación de una foco y sin iluminación del foco, se realizo varias testeos de distintas distancias para capturar la sensibilidad de la pantalla de la laptop, se tomo la distancia máxima que se puede capturar sin que se vea afectado la captación del brillo de la pantalla,  en el video adjunto se muestra que se captura su sensibilidad desde una distancia de 2.75 mts captando la sensibilidad del brillo de la laptop con la cámara del celular. 
+
+Como resultado una distancia adecuada para que la cámara del celular y el brillo de la pantalla sea capturado y sobre todo la señal enviada sea intregra, es de 2.75 mts con los recursos utilizados en este experimento, esta medida pueda cambiar si se toma recursos con mejor desempeño para esta situación. 
+
+Limitaciones que se presencio en el experimento:
+El tamaño de la pantalla puede hacer que la captación por medio de la cámara limite la distancia posible para transmitir un mensaje, por ejemplo una pantalla con una mayor área hará que sea pueda tomar una mayor distancia para la captación por la cámara del celular. 
+El brillo ambiente muy elevado y la pantalla de laptop , hace que se tenga más cuidado con la precisión de la cámara del celular para capturar la zona del la pantalla, para así reducir el ruido del ambiente .
+El ajuste automático de la cámara; se noto que causa ruido en la señal al momento de capturar el brillo. 
+ 
